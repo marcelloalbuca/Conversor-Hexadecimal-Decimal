@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+<head>
+    <meta charset="utf-8">
+    <title>Numeração do Cartão</title>
+    <script type="text/javascript" src="js/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+ <a class="navbar-brand text-white">Numeração do Cartão</a>
+    <div class="form-inline my-2 my-lg-0">
+      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a1">
+      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a2">
+      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a3">
+      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a4">
+      <button class="btn btn-outline-success my-2 my-sm-0" onclick="nCartão()">Numeração do cartão</button>
+    </div>
+</nav>
+
+<div class="container cep" style="margin-top:20px;">
+  <div class="row">
+    <h3 id="ncartao">Numeração do Cartão</h3>
+  </div>    
+
+  <div class="row" style="margin-top:20px;">
+    <table class="table">
+        <tbody>
+            <tr>
+              <td>Numeração do Cartão</td>
+              <td id="n"></td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+    
+</body>
+</html>
