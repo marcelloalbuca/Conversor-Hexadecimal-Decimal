@@ -11,19 +11,20 @@
 
 <nav class="navbar navbar-dark bg-dark">
  <a class="navbar-brand text-white">Numeração do Cartão</a>
-    <div class="form-inline my-2 my-lg-0">
+ <div class="alert alert-danger" role="alert">
+  Contêm caracteres errados.
+</div>
+    <div class="form-inline my-2 my-lg-0" style="margin: auto;">
      <h3 style="color: green;"> INSIRA UID ----->   </h3> 
-      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a1">
-      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a2">
-      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a3">
-      <input style="width: 10%;" maxlength="2" class="form-control mr-sm-2" type="search" placeholder="00" aria-label="Search" id="a4">
-      <button class="btn btn-outline-success my-2 my-sm-0" onclick="nCartão()">Numeração do cartão</button>
+      <input style="width:45%;" maxlength="11" class="form-control mr-sm-2" type="text" placeholder="00 D7 88 77">
+ 
     </div>
 </nav>
 
 <div class="container cep" style="margin-top:20px;">
   <div class="row">
     <h3 id="ncartao">Numeração do Cartão</h3>
+    <button style="margin: auto;" class="btn btn-outline-success my-2 my-sm-0">COPIAR</button>
   </div>    
 
   <div class="row" style="margin-top:20px;">
